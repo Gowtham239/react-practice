@@ -1,0 +1,42 @@
+/* Write your code here. */
+* {
+  box-sizing: border-box;
+  font-family: "roboto";
+}
+body {
+  margin: 0px;
+}
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #0f172a;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  color: #f8fafc;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.image {
+  height: 150px;
+}
+
+.image-container {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 64px;
+  }
+
+  .image {
+    height: 300px;
+  }
+}

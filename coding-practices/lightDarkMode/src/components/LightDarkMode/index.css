@@ -1,0 +1,41 @@
+/* Write your CSS here */
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  text-align: center;
+  border-radius: 12px;
+  padding: 24px;
+}
+
+.dark-mode {
+  color: #ffffff;
+  background-color: #000000;
+}
+
+.light-mode {
+  color: #000000;
+  background-color: #ffffff;
+  border: 1px solid #000000;
+}
+
+.heading {
+  /* color: #ffffff; */
+  font-size: 30px;
+}
+
+.button {
+  text-align: center;
+  font-size: 16px;
+  border-radius: 8px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 24px;
+  padding-right: 24px;
+  cursor: pointer;
+}

@@ -1,0 +1,54 @@
+/* Write your CSS here */
+.bg-container {
+  /* background-image: url('https://assets.ccbp.in/frontend/react-js/speedometer-img.png ');
+  background-size: cover;
+  height: 100vh; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #07080c;
+  padding-top: 30px;
+  justify-content: space-between;
+}
+
+.img-size {
+  height: 50vh;
+}
+
+.heading {
+  color: #ffffff;
+  font-style: italic;
+  font-size: 40px;
+}
+
+.size {
+  font-size: 30px;
+}
+.paragraph {
+  color: #ffffff;
+}
+
+.speed-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.accelerate-button {
+  background-color: #0b69ff;
+  color: #ffffff;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.break-button {
+  color: #94a3b8;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 10px;
+  background-color: transparent;
+  border-color: #cbd5e1;
+  border-style: solid;
+  border-width: 1px;
+}

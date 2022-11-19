@@ -1,0 +1,42 @@
+/* Write your CSS here */
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  background-image: linear-gradient(to bottom, #ff6e7f, #bfe9ff);
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  height: 400px;
+  border-radius: 20px;
+}
+
+.count-heading {
+  color: #0f172a;
+}
+
+.count-number {
+  color: #334155;
+}
+
+.button {
+  box-flex-group: #ffffff;
+  color: #334155;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 24px;
+  padding-right: 24px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.random-para {
+  color: #1e293b;
+  font-size: 12px;
+}

@@ -1,0 +1,28 @@
+/* Write your CSS here */
+.counter-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.heading {
+  color: #2d3a35;
+}
+
+.count {
+  color: #c20a72;
+}
+
+.paragraph {
+  color: #2d3a35;
+}
+
+.button {
+  background-color: #007bff;
+  color: #ffffff;
+  border-style: none;
+  padding: 10px;
+  border-radius: 5px;
+}
