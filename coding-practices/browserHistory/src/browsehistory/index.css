@@ -1,0 +1,12 @@
+.list-items {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  justify-content: space-between;
+}
+
+.items {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+}
